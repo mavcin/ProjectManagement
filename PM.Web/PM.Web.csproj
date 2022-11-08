@@ -229,7 +229,6 @@
     <Content Include="Content\img\cyber.jpg" />
     <Content Include="Content\img\intro-bg.jpg" />
     <Content Include="Content\img\ipad.png" />
-    <Content Include="Content\img\ui-zac.jpg" />
     <Content Include="Content\img\user.gif" />
     <Content Include="Content\iziToast.css" />
     <Content Include="Content\iziToast.min.css" />

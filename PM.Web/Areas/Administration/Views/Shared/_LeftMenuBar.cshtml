@@ -31,11 +31,11 @@
                 </li>
 
                 <li>
-                    @Html.MenuItemLink("Tasks", "List", "Task", new { pId = PM.Common.ShortGuid.Encode(Model) }, "glyphicon glyphicon-tasks", "Edit")
+                    @Html.MenuItemLink("List Pending Tasks", "List", "Task", new { pId = PM.Common.ShortGuid.Encode(Model) }, "glyphicon glyphicon-tasks", "Edit")
                 </li>
 
                  <li>
-                    @Html.MenuItemLink("Complete Tasks", "CompleteList", "Task", new { pId = PM.Common.ShortGuid.Encode(Model) }, "glyphicon glyphicon-tasks", "Edit")
+                    @Html.MenuItemLink("List Overdue Tasks", "CompleteList", "Task", new { pId = PM.Common.ShortGuid.Encode(Model) }, "glyphicon glyphicon-tasks", "Edit")
                 </li>
 
                 <li>
