@@ -25,7 +25,6 @@ D:\My_Projects\ProjectManagement\PM.Common\bin\Debug\Newtonsoft.Json.xml
 D:\My_Projects\ProjectManagement\PM.Common\bin\Debug\Ninject.xml
 D:\My_Projects\ProjectManagement\PM.Common\bin\Debug\SendGrid.pdb
 D:\My_Projects\ProjectManagement\PM.Common\bin\Debug\SendGrid.xml
-D:\My_Projects\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.AssemblyReference.cache
 D:\My_Projects\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.CoreCompileInputs.cache
 D:\My_Projects\ProjectManagement\PM.Common\obj\Debug\PM.Common.csproj.CopyComplete
 D:\My_Projects\ProjectManagement\PM.Common\obj\Debug\PM.Common.dll

@@ -69,11 +69,29 @@ namespace PM.Web.Areas.Administration.Controllers
         }
 
         /// <summary>
+        /// Task list GET action.
+        /// </summary>
+        /// <param name="projectId">The project identifier.</param>
+        /// <returns>View.</returns>
+        [HttpGet]
+        [ActionName("CompleteList")]
+        public async Task<ActionResult> CompleteListAsync(string pId)
+        {
+            if (String.IsNullOrEmpty(pId))
+                throw new Exception("The parameter [pId] is null or empty.");
+
+            var vm = await GetCompleteListViewModelPaged(new PagingParameters(1, 9), ShortGuid.Decode(pId));
+            return View("CompleteList", vm);
+        }
+
+        /// <summary>
         /// Tasks list GET action.
         /// </summary>
         /// <param name="pId">Project short guid.</param>
         /// <param name="page">Page number.</param>
         /// <returns>Partial view.</returns>
+        /// 
+
         [HttpGet]
         [ActionName("TasksList")]
         public async Task<ViewResult> TasksListAsync(string pId, int page = 1)
@@ -233,6 +251,24 @@ namespace PM.Web.Areas.Administration.Controllers
             return vm;
         }
 
+        // completed task list
+        private async Task<ListViewModel> GetCompleteListViewModelPaged(IPagingParameters pagingParameters, Guid projectId)
+        {
+            var project = await projectService.GetProjectAsync(projectId,
+                this.ToNavPropertyString(nameof(IProjectPoco.ProjectUsers), nameof(IProjectUserPoco.User)));
+
+            var tasks = await GetCompleteTasksListPaged(pagingParameters, projectId);
+            var vm = new ListViewModel()
+            {
+                ProjectName = project.Name,
+                ProjectId = project.Id,
+                Tasks = tasks
+            };
+
+            SetListActionViewBags(project);
+            return vm;
+        }
+
         private async Task<IPagedList<TaskDTO>> GetTasksListPaged(IPagingParameters pagingParameters, Guid projectId)
         {
             var sortingParameters = new SortingParameters();
@@ -241,7 +277,21 @@ namespace PM.Web.Areas.Administration.Controllers
                 this.ToNavPropertyString(nameof(ITaskPoco.AssignedToUser)),
                 this.ToNavPropertyString(nameof(ITaskPoco.TaskComments)));
 
-            var vm = new StaticPagedList<TaskDTO>(Mapper.Map<IEnumerable<TaskDTO>>(tasks.ToList()), pagingParameters.PageNumber, pagingParameters.PageSize, tasks.TotalItemCount);
+            var vm = new StaticPagedList<TaskDTO>(Mapper.Map<IEnumerable<TaskDTO>>(tasks.Where(a=>a.Progress!=100).ToList()), pagingParameters.PageNumber, pagingParameters.PageSize, tasks.TotalItemCount);
+            //why task.progrees==100 because when the project first using status id is change
+            return vm;
+        }
+
+        private async Task<IPagedList<TaskDTO>> GetCompleteTasksListPaged(IPagingParameters pagingParameters, Guid projectId)
+        {
+            var sortingParameters = new SortingParameters();
+            sortingParameters.Add("DateUpdated", false);
+            var tasks = await taskService.GetTasksPagedAsync(pagingParameters, p => p.ProjectId == projectId, sortingParameters,
+                this.ToNavPropertyString(nameof(ITaskPoco.AssignedToUser)),
+                this.ToNavPropertyString(nameof(ITaskPoco.TaskComments)));
+
+            var vm = new StaticPagedList<TaskDTO>(Mapper.Map<IEnumerable<TaskDTO>>(tasks.Where(a => a.Progress== 100).ToList()), pagingParameters.PageNumber, pagingParameters.PageSize, tasks.TotalItemCount);
+            //why task.progrees==100 because when the project first using status id is change
             return vm;
         }
 

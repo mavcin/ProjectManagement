@@ -17,7 +17,6 @@ D:\My_Projects\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.dll
 D:\My_Projects\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.SqlServer.dll
 D:\My_Projects\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.xml
 D:\My_Projects\ProjectManagement\PM.DAL\bin\Debug\EntityFramework.SqlServer.xml
-D:\My_Projects\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.csproj.AssemblyReference.cache
 D:\My_Projects\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.csproj.CoreCompileInputs.cache
 D:\My_Projects\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.csproj.CopyComplete
 D:\My_Projects\ProjectManagement\PM.DAL\obj\Debug\PM.DAL.dll
