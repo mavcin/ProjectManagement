@@ -11,8 +11,8 @@ D:\My_Projects\ProjectManagement\PM.Model.Common\bin\Debug\PM.Model.Common.dll
 D:\My_Projects\ProjectManagement\PM.Model.Common\bin\Debug\PM.Model.Common.pdb
 D:\My_Projects\ProjectManagement\PM.Model.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\My_Projects\ProjectManagement\PM.Model.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-D:\My_Projects\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csproj.AssemblyReference.cache
 D:\My_Projects\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csproj.CoreCompileInputs.cache
 D:\My_Projects\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csproj.CopyComplete
 D:\My_Projects\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.dll
 D:\My_Projects\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.pdb
+D:\My_Projects\ProjectManagement\PM.Model.Common\obj\Debug\PM.Model.Common.csproj.AssemblyReference.cache

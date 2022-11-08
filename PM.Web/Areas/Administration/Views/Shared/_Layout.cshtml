@@ -12,7 +12,7 @@
 
     <meta name="msapplication-TileColor" content="#5bc0de" />
 
-    <title>Project Managment</title>
+    <title>Project & Task Managment</title>
 
     @Styles.Render("~/Content/bootstrap/css")
     @Styles.Render("~/Content/site-style/css")
@@ -89,7 +89,7 @@
     </div>
 
     <div id="user-popover" class="hidden">
-        <div class="popover-heading">mavcin</div>
+        <div class="popover-heading">@ViewBag.UserEmail</div>
         <div class="popover-body">
             @using (Html.BeginForm("SignOut", "Security", new { area = "" }, FormMethod.Post, null))
             {
