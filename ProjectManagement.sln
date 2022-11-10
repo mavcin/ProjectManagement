@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Web", "PM.Web\PM.Web.csproj", "{066F868F-E265-432D-BD57-7E711C6DCFF1}"
 EndProject
@@ -20,6 +20,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Model", "PM.Model\PM.Model.csproj", "{BF6093BD-4AE0-4CB7-B9B5-AD95E4913F14}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Model.Common", "PM.Model.Common\PM.Model.Common.csproj", "{EC16EA4F-0278-4C87-B659-A374A4F12DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9F149221-704F-41D6-9F34-80EC098534A0}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\all_task_list.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\all_task_list.PNG
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\click_on_project_state.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\click_on_project_state.PNG
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Dashboard_Home.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Dashboard_Home.PNG
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Overdue_Tasks.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Overdue_Tasks.PNG
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Pending_tasks.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Pending_tasks.PNG
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\login.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\login.PNG
+		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Project_list.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Project_list.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -114,7 +114,7 @@ namespace PM.Web.Controllers
         public Task<RedirectToRouteResult> SignOutAsync()
         {
             AuthenticationManager.SignOut();
-            return Task.FromResult(RedirectToAction("Index", "Home"));
+            return Task.FromResult(RedirectToAction("Login", "Security"));
         }
 
         /// <summary>
