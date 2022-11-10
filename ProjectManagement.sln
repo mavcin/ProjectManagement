@@ -23,13 +23,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PM.Model.Common", "PM.Model
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9F149221-704F-41D6-9F34-80EC098534A0}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\all_task_list.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\all_task_list.PNG
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\click_on_project_state.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\click_on_project_state.PNG
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Dashboard_Home.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Dashboard_Home.PNG
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Overdue_Tasks.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Overdue_Tasks.PNG
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Pending_tasks.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\List_Pending_tasks.PNG
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\login.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\login.PNG
-		C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Project_list.PNG = C:\Users\mavcin\Desktop\proje_Ekran_Goruntuleri\Project_list.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\all_task_list.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\all_task_list.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\click_on_project_state.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\click_on_project_state.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\Dashboard_Home.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\Dashboard_Home.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\List_Overdue_Tasks.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\List_Overdue_Tasks.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\List_Pending_tasks.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\List_Pending_tasks.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\login.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\login.PNG
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\Project_list.PNG = ..\..\..\Desktop\proje_Ekran_Goruntuleri\Project_list.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{432552A3-CAC6-4FFD-8DD5-22FBA99E1F0A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\proje_Ekran_Goruntuleri\CreateDatabase.sql = ..\..\..\Desktop\proje_Ekran_Goruntuleri\CreateDatabase.sql
 	EndProjectSection
 EndProject
 Global
