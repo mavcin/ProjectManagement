@@ -238,6 +238,14 @@
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\site.css" />
     <Content Include="Content\summernote.css" />
+    <Content Include="Database\CreateDatabase.sql" />
+    <Content Include="Documentation\all_task_list.PNG" />
+    <Content Include="Documentation\click_on_project_state.PNG" />
+    <Content Include="Documentation\Dashboard_Home.PNG" />
+    <Content Include="Documentation\List_Overdue_Tasks.PNG" />
+    <Content Include="Documentation\List_Pending_tasks.PNG" />
+    <Content Include="Documentation\login.PNG" />
+    <Content Include="Documentation\Project_list.PNG" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
