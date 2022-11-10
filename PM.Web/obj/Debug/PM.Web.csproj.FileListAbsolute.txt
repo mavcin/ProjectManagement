@@ -126,6 +126,3 @@ C:\Users\mavcin\Downloads\Project-Management-master\ProjectManagement\PM.Web\obj
 C:\Users\mavcin\Downloads\Project-Management-master\ProjectManagement\PM.Web\obj\Debug\PM.Web.csproj.CopyComplete
 C:\Users\mavcin\Downloads\Project-Management-master\ProjectManagement\PM.Web\obj\Debug\PM.Web.dll
 C:\Users\mavcin\Downloads\Project-Management-master\ProjectManagement\PM.Web\obj\Debug\PM.Web.pdb
-D:\My_Projects\ProjectManagement\PM.Web\bin\Microsoft.Owin.dll
-D:\My_Projects\ProjectManagement\PM.Web\bin\Newtonsoft.Json.dll
-D:\My_Projects\ProjectManagement\PM.Web\bin\Ninject.Web.Mvc.xml
